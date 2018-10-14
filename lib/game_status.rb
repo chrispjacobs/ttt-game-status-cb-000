@@ -66,7 +66,7 @@ unless won?(board) == false
     return "O"
   end
 end
-return false
+return nil
 end
 
 
