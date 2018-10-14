@@ -70,5 +70,5 @@ return false
 end
 
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "O"]
+board = ["O", " ", " ", " ", "O", " ", " ", " ", "O"]
 puts winner(board)
