@@ -56,6 +56,9 @@ def over?(board)
 end
 
 def winner(board)
+if won?(board) == false
+  won?(board) = ["X", "O", "X"]
+  end
   pos_1 = won?(board)[0]
   pos_2 = won?(board)[1]
   pos_3 = won?(board)[2]
