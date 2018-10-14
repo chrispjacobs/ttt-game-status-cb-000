@@ -70,5 +70,5 @@ if won?(board) == false
 end
 
 
-board = ["O", " ", " ", " ", "O", " ", " ", " ", "O"]
+board = ["O", " ", " ", " ", "X", " ", " ", " ", "O"]
 puts winner(board)
